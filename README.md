@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/PriyankaRC16/product-preview-card-component
+- Solution URL: https://github.com/PriyankaRC16/nft-product-component
 - Live Site URL: https://priyankarc16.github.io/nft-product-component/
 
 - ### Screenshot
