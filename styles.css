@@ -1,0 +1,241 @@
+.main-card {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    width:338px;
+    align-items: center;
+    justify-content: center;
+    margin-left:550px;
+    margin-top:70px;
+    gap: 20px;
+    border-radius: 17px;
+    background: hsl(216, 50%, 16%);
+    box-shadow: 0px 22px 13px 0px rgba(0, 0, 0, 0.25);
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.big-image{
+    width: 304px;
+    height: 304px;
+    border-radius: 8px;
+  
+}
+
+.image-contaciner:hover {
+    position:relative;
+    cursor:pointer;
+    background: hsla(188, 100%, 37%, 0.5);
+}
+
+.eye-icon{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 724px;
+    bottom: 500px;
+    overflow: hidden;
+}
+
+.eye-icon:hover {
+    cursor:pointer;
+    background: hsla(188, 100%, 37%, 0.5);
+    background-image: url("images/icon-view.svg"); 
+}
+
+.image-container .big-image .eye-icon div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.big-image .eye-icon div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.title-background {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-text {
+    color: hsl(0, 0%, 100%);
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left:-139px;
+}
+
+.title-text:hover{
+    color:hsl(178, 100%, 50%);
+    cursor:pointer;
+}
+
+.subtext-background{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.subtextone-background {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.subtext{
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left:-47px;
+}
+
+.subtextone{
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left:-179px;
+}
+
+.main-background {
+    display: flex;
+    align-items: flex-start;
+    gap: 112px;
+}
+
+.eth-background{
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.eth-text{
+    color: hsl(178, 100%, 50%);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left:-65px;
+}
+
+.duration-background{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.duration-text{
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line-background{
+    display: flex;
+    padding: 1px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.line{
+    width: 300px;
+    height:1px;
+    background: hsl(215, 32%, 27%);
+}
+
+.footer-background{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer-text-background{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left:-110px;
+}
+
+.footer-text {
+    color: hsl(0, 0%, 100%);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-text:hover {
+    color:hsl(178, 100%, 50%);
+    cursor:pointer;
+}
+
+.footer-image{
+    width: 37px;
+    height: 37px;
+}
+
+.attribution {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: hsl(0, 0%, 100%);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 90px;
+    
+}
+
+@media screen and (max-width: 375px){
+    .main-card{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 1440px){
+    .main-card{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+    
+  }
